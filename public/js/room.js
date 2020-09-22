@@ -39,9 +39,14 @@ function sendMessage() {
     let message = (inputMessage.value).trim();
     
     if (message) {
-        socket.emit('chatMessage', message_convert(message));
+        let message_htmlremoved = message_convert(message);
+        if (message_htmlremoved) {
+            socket.emit('chatMessage', message_htmlremoved);
 
-        inputMessage.value = '';
+            inputMessage.value = '';
+        } else {
+            inputMessage.value = '';
+        }
     }
 }
 
