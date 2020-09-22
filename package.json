@@ -1,0 +1,18 @@
+{
+  "name": "chatonimous",
+  "version": "1.0.0",
+  "description": "Only a anonymous chat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.16.4",
+    "moment": "^2.28.0",
+    "nunjucks": "^3.2.1",
+    "socket.io": "^2.1.1"
+  },
+  "author": "Bruno Lemos",
+  "license": "MIT"
+}
