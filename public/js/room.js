@@ -30,11 +30,16 @@ inputMessage.addEventListener("keyup", function(event) {
     }
 });
 
+function message_convert(message) {
+    message = message.toString();
+    return message.replace(/<[^>]*>/g, '');
+}
+
 function sendMessage() {
     let message = (inputMessage.value).trim();
     
     if (message) {
-        socket.emit('chatMessage', message);
+        socket.emit('chatMessage', message_convert(message));
 
         inputMessage.value = '';
     }
