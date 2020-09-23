@@ -1,17 +1,45 @@
-# BIN2DEC
+<h1 align="center">
+    <img alt="" title="" src="preview/logo.png">
+</h1>
 
-Binary-to-Decimal number converter
+<h2 align="center">Say what you want!</h2>
 
-## Getting Started
+## 👨‍💻 Technologies
 
-The use of the application is very simple, just enter the binary number and when clicking on "CONVERT" it will be converted to decimal.
+- [Node.js]
+- [Express]
+- [Axios]
+- [Nunjucks]
+- [Socket.io]
 
-## Authors
 
-* **Bruno Lemos** - [Profile](https://github.com/CaosMen)
+## 🔧 Resources
+* You can create a room to chat with your friends.
 
-See also the list of [contributors](https://github.com/CaosMen/BIN2DEC/contributors) who participated in this project.
+## ❓ How to use?
 
-## License
+### Installation
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+```bash
+$ cd CHATONIMOUS
+$ npm install
+$ npm start
+```
+
+## 💻 Web View
+
+<h1 align="center">
+    <img alt="" title="" src="preview/web.png">
+</h1>
+
+## 📱 Mobile View
+
+<h1 align="center">
+    <img alt="" title="" src="preview/mobile.png">
+</h1>
+
+<br>
+
+<p align="center">
+Created by Bruno Lemos.
+</p>
